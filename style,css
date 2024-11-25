@@ -7,7 +7,6 @@
   width: 100%;
   margin: 0;
   background-color: red;
-  justify-content: center;
 }
 
 .nav-item a {
@@ -18,7 +17,6 @@
   font-size: 14px;
   font-weight: 700;
   padding: 20px 0;
-  justify-content: center;
 }
 
 #menu {
@@ -27,13 +25,11 @@
   justify-content: space-between;
   background-color: none;
   padding: 0 40px;
-  float: right;
 }
 
-.navbarSupportedContent {
+.collapse {
   justify-content: flex-end;
   float: right;
-  justify-content: center;
 }
 
 #formulario {
@@ -193,8 +189,6 @@ footer {
   width: 200px;
   height: 124px;
   justify-content: center;
-  display: block;
-  align-content: center;
 }
 #presentacion .logo2 {
   background-image: url(../assets/img/logo_klsmartin.svg);
@@ -413,6 +407,8 @@ footer {
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
   border: none;
   float: right;
+  position: absolute;
+  bottom: auto;
 }
 
 #productos .btn-productos a {
@@ -466,12 +462,6 @@ footer {
 }
 #headerlinea .contenedor-imagen .foto1 {
   background-image: url(../assets/img/header_implante_manos.jpg);
-}
-#headerlinea .contenedor-imagen .foto4 {
-  background-image: url(../assets/img/header_implante_manos.jpg);
-}
-#headerlinea .contenedor-imagen .foto5 {
-  background-image: url(../assets/img/header-instrumental.jpg);
 }
 #headerlinea .imagen {
   background-repeat: no-repeat;
@@ -626,6 +616,8 @@ footer {
   font-weight: 700;
   float: right;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
+  position: relative;
+  bottom: 0px;
 }
 #linea1productos .btn-producto:hover {
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.3333333333);
@@ -667,4 +659,4 @@ footer {
   height: 80px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style,css.map */

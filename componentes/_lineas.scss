@@ -36,6 +36,12 @@
     .contenedor-imagen .foto1{
         background-image: url(../assets/img/header_implante_manos.jpg);
     }
+    .contenedor-imagen .foto4{
+        background-image: url(../assets/img/header_implante_manos.jpg);
+    }
+    .contenedor-imagen .foto5{
+        background-image: url(../assets/img/header-instrumental.jpg);
+    }
     
     .imagen{
         background-repeat: no-repeat;
@@ -201,10 +207,6 @@
         font-weight: 700;
         float: right;
         box-shadow: $shadow;
-        position: relative;
-        bottom: 0px;
-       
-       
         }
     .btn-producto:hover{
         box-shadow: $shadow2;
